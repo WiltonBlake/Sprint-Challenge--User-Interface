@@ -140,10 +140,17 @@ hr {
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 1px dashed black;
-    width: 40%;
+    width: 100%;
+    justify-content: space-between;
     
 }
 
+.inner-box {
+    width: 40%;
+    border-bottom: 1px dashed black;
+	margin-bottom: 30px;
+
+}
 .box1 {
     width: 12.5%;
     height: 100px;
